@@ -22,7 +22,7 @@
         <div class="sidebar-brand-icon">
           <img src="<?= base_url('assets/') ?>img/logo/logo2.png">
         </div>
-        <div class="sidebar-brand-text mx-3">Akmall nichhh</div>
+        <div class="sidebar-brand-text mx-3">Kasir</div>
       </a>
       <hr class="sidebar-divider my-0">
       <li class="nav-item active">
@@ -35,7 +35,7 @@
         Transaksi
       </div>
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="<?=base_url('penjualan') ?>">
           <i class="fas fa-fw fa-store"></i>
           <span>Penjualan</span>
         </a>
@@ -52,7 +52,7 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="<?= base_url('pelanggan') ?>">
           <i class="fas fa-fw fa-users"></i>
           <span>Pelanggan</span>
         </a>
